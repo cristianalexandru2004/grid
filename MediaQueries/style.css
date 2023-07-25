@@ -1,0 +1,25 @@
+.title {
+  color: white;
+  background-color: cadetblue;
+  padding: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    background-color: rebeccapurple;
+  }
+  .paragraf {
+    font-size: 16px;
+    font-weight: 400px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+  .title {
+    background-color: blue;
+    .paragraf {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}
